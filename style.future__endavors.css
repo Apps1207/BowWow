@@ -1,0 +1,185 @@
+
+
+.container{
+    /* border: 2px solid red; */
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+    /* background-color: beige; */
+    background-image: url(beigebackg.jpeg);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+}
+/* 
+.homebackground{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.85)),url(sad-abandoned-dog-1024x768-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+
+}
+.homebackground:after{
+    content: "Be Kind to every Kind ...Not just the ManKind";
+    color: beige;
+    font-family: Rubik Marker Hatch;
+    text-align: center;
+    bottom: 0;
+    left: 60%;
+    position: absolute;
+    font-size: 50px;
+} */
+
+
+.loginonhomepage{
+    width: 70px;
+    display: block;
+    padding: 15px;
+    position: relative;
+    margin-top: 40px;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border-radius: 50px;
+    margin-right: 60px;
+}
+
+.loginonhomepage:hover{
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.15);
+
+}
+
+.dropdown {
+    position: relative;
+    top: 0;
+    right: 0;
+    margin-right: 80px;
+    margin-top: 40px;
+    margin-left: 90px;
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+.dropdownbutton{
+    position: relative;
+    padding: 20px;
+    border: none;
+    background-color: white;
+    border-radius: 30px;
+    
+}
+
+
+
+.dropdownbutton:hover{
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.15);
+
+}
+
+.dropdownbutton:active{
+    background-color: lightgray;
+}
+
+.dropdownmenu {
+    display: none;
+    position: relative;
+    top: 100%;
+    right: 0;
+    width: 50vw;
+    background-color: blanchedalmond;
+    border: 1px solid #ccc;
+    z-index: 1;
+    padding: 10px;
+    margin-top: 43px;
+    border: none;
+
+}
+
+.dropdownmenu li {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 50px;
+    /* margin-left: 60px; */
+    text-align: center;
+}
+
+.dropdownmenu a:hover{
+    color: rgb(211, 99, 99);
+}
+
+.dropdownmenu a:active{
+    color: rgb(200, 165, 165);
+}
+
+.dropdownmenu a {
+    padding: 5px;
+    display: block;
+    text-decoration: none;
+    color: #333;
+    
+}
+
+.namediv {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.header1 {
+    font-size: 3rem;
+    color: #4CAF50;
+    font-family: Rubik Marker Hatch;
+    /* margin-top: 40px; */
+
+}
+
+.pawsimage {
+    /* text-align: center; */
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-top: 20px;
+
+}
+
+.futureendeavorsdiv {
+    background-color: white;
+    padding: 2px;
+    margin: 50px;
+    width: 60%;
+    margin-left: 150px;
+    margin-top: 100px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+}
+
+.ulendpage {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin-top: 50px;
+    margin-top: 250px;
+}
+
+.ulendpage li {
+    margin: 0 10px;
+}
+
+.ulendpage li a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.imagediv{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(sad-abandoned-dog-1024x768-1.jpg);
+    height: 600px;
+    margin-top: 100px;
+}

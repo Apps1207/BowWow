@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Take a Picture or Upload</title>
+    <link rel="stylesheet" href="style.picuture.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Take a Picture or Upload</h1>
+        <form action="upload_image_handler.php" method="post" enctype="multipart/form-data"></form>
+            <button id="takePictureButton">Take a Picture</button>
+            <input type="file" id="uploadPictureInput" accept="image/*">
+            <img id="previewImage" style="max-width: 100%; margin-top: 20px;" />
+        <button type="submit" onclick="window.location.href = 'available.html';">Ask For help</button>
+        </form>
+    </div>
+    <script>
+        // Get the take picture button and preview image elements
+const takePictureButton = document.getElementById('takePictureButton');
+const previewImage = document.getElementById('previewImage');
+
+// Check if the browser supports the MediaDevices API
+if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+    // Request access to the user's camera
+    navigator.mediaDevices.getUserMedia({ video: true })
+       .then((stream) => {
+            // Create a new video element and add the camera stream to it
+            const video = document.createElement('video');
+            video.srcObject = stream;
+            video.play();
+
+            // When the take picture button is clicked, take a picture and display it in the preview image element
+            takePictureButton.addEventListener('click', () => {
+                // Create a new canvas element and draw the video frame on it
+                const canvas = document.createElement('canvas');
+                canvas.width = video.videoWidth;
+                canvas.height = video.videoHeight;
+                const context = canvas.getContext('2d');
+                context.drawImage(video, 0, 0, canvas.width, canvas.height);
+
+                // Convert the canvas to a data URL and set it as the source of the preview image element
+                previewImage.src = canvas.toDataURL('image/png');
+            });
+        })
+       .catch((error) => {
+            console.error('Error accessing the camera:', error);
+        });
+} else {
+    console.error('The browser does not support the MediaDevices API');
+}
+
+
+
+    </script>
+</body>
+</html>

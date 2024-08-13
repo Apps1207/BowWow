@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bow-Wow</title>
+    <link rel="stylesheet" href="style.homepage.css">
+    <link rel="stylesheet" href="style.login.css">
+
+    <script>
+        function toggledropdown() {
+            var dropdownMenu = document.querySelector('.dropdownmenu');
+            if (dropdownMenu.style.display === 'block') {
+                dropdownMenu.style.display = 'none';
+            } else {
+                dropdownMenu.style.display = 'block';
+            }
+        }
+    </script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    
+    <div class="homebackground">
+        <div class="container">
+            
+            <div class="dropdown">
+                <button class="dropdownbutton" onclick="toggledropdown()">&#9660;</button>
+                <div>
+                    <ul class="dropdownmenu">
+                        <li class="list1"><a href="#">Home</a></li>
+                        <li><a href="future_endavors.html">Future endeavors</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Feedback</a></li>
+                        <li><a href="#">About Us</a></li>
+                </ul>
+                </div>
+            </div>
+
+            <div class="logo">
+                
+            </div>
+
+            <div>
+                <a href="login.html" class="loginonhomepage">Login</a>
+            </div>
+            
+        </div>
+    </div> 
+
+    <div class="namediv">
+        <img src="paws.jpeg" class="pawsimage">
+        <h1 class="header1">BOW-WOW</h1>
+    </div>
+
+    <div class="aboutusonhomepagediv">
+        <h2 class="header2">About Us</h2>
+        <p class="aboutusonhomepage">
+            BOW-WOW is a non-profit organization dedicated to promoting animal welfare in the communities of our city and its neighboring areas.<br><br> Our mission revolves around rescuing and rehabilitating injured, needy, and sick animals, ensuring they receive the care and support they deserve. <br><br>We are committed to being the voice for the voiceless, advocating for the rights and well-being of all animals. <br><br>BOW-WOW has been actively involved in various initiatives aimed at improving the lives of animals in our region.</p>
+    </div>
+
+    <div>
+        <ul class="ulendpage">
+            <li><a href="privacypolicy.html">Privacy Policy</a></li>
+            <li><a href="TandC.html">Terms and Conditions</a></li>
+            <!-- <li> Cancellation and Refund</li> -->
+            <!-- <li>Shipping and Deliver</li> -->
+        </ul>
+    </div>
+
+    <div class="endofpage">
+
+    </div>
+    
+</body>
+</html>

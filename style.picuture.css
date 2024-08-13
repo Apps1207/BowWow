@@ -1,0 +1,39 @@
+body {
+	background-image: url('animal-collage1.jpg'); 
+    background-image: linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.85)),url('animal-collage1.jpg');
+	background-size: cover;
+	background-color: #f5f5dc; /* beige color */
+}
+
+.container {
+	width: 80%;
+	margin: 40px auto;
+	text-align: center;
+    color : white;
+}
+
+.center {
+	margin: 20px auto;
+	color: #333; /* black color */
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#uploaded-image {
+	width: 50%;
+	margin: 20px auto;
+	border: 1px solid #ccc;
+}
+
+#submit-btn {
+	background-color: #333; /* black color */
+	color: #f5f5dc; /* beige color */
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#submit-btn:hover {
+	background-color: #444; /* darker black color */
+}

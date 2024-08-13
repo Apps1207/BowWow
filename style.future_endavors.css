@@ -1,0 +1,230 @@
+/* style.futureendeavors.css */
+
+body {
+    font-family: 'Rubik Marker Hatch', cursive;
+    background-color: #f2f2f2;
+}
+
+.homebackground {
+    background-image: url('future.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 0%;
+    margin: 5;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdownbutton {
+    background-color: transparent;
+    border: none;
+    color: rgb(15, 5, 5);
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.dropdownmenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: beige;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    width: 200px;
+}
+
+.dropdownmenu li {
+    list-style: none;
+    padding: 5px 10px;
+}
+
+.dropdownmenu li:hover {
+    background-color: #f2f2f2;
+}
+
+/* .logo {
+    width: 100px;
+    height: 100px;
+    background-image: url('logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+} */
+
+
+.namediv {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.pawsimage {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+
+.header1 {
+    font-size: 3rem;
+    color: #4CAF50;
+}
+
+.futureendeavorsdiv {
+    background-color: white;
+    padding: 2px;
+    margin: 50px;
+    width: 80%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header2 {
+    font-size: 2rem;
+    color: #4CAF50;
+    margin-bottom: 20px;
+    align-items: top;
+}
+
+.futureendeavorstext {
+    font-size: 1.2rem;
+    line-height: 1.5;
+
+}
+
+.ulendpage {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin-top: 50px;
+}
+
+.ulendpage li {
+    margin: 0 10px;
+}
+
+.ulendpage li a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.endofpage {
+    height: 100px;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.endofpage p {
+    color: white;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+.container{
+    /* border: 2px solid red; */
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+    /* background-color: beige; */
+    background-image: url(beigebackg.jpeg);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+}
+
+.dropdown {
+    position: relative;
+    top: 0;
+    right: 0;
+    margin-right: 80px;
+    margin-top: 40px;
+    margin-left: 90px;
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+.dropdownbutton{
+    position: relative;
+    padding: 20px;
+    border: none;
+    background-color: white;
+    border-radius: 30px;
+    
+}
+
+
+
+.dropdownbutton:hover{
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.15);
+
+}
+
+.dropdownbutton:active{
+    background-color: lightgray;
+}
+
+.dropdownmenu {
+    display: none;
+    position: relative;
+    top: 100%;
+    right: 0;
+    width: 50vw;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    z-index: 1;
+    padding: 10px;
+    margin-top: 43px;
+    border: none;
+
+}
+
+.dropdownmenu li {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 50px;
+    /* margin-left: 60px; */
+    text-align: center;
+}
+
+.dropdownmenu a:hover{
+    color: rgb(211, 99, 99);
+}
+
+.dropdownmenu a:active{
+    color: rgb(200, 165, 165);
+}
+
+.dropdownmenu a {
+    padding: 5px;
+    display: block;
+    text-decoration: none;
+    color: #333;
+    
+}
+
+
+

@@ -1,0 +1,86 @@
+.body{
+    background-image: url(pawwwssss.png);
+}
+
+table {
+    background-color: beige;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 15px;
+    text-align: center;
+}
+
+th {
+    background-color: #d8a9a9;
+}
+
+/* DIFFERENT DIV ✨✨✨ */
+
+.loginonavailable {
+    width: 70px;
+    display: block;
+    padding: 30px;
+    position: absolute;
+    top: 0;
+    right:0;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(12, 175, 234);
+    border-radius: 50px;
+    margin-left: 60px;
+    text-emphasis:var(#333)
+} 
+
+
+.loginonavailable:hover{
+    /* box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.15); */
+    background-image: url('Screenshot 2024-05-13 013641.png');
+}
+
+.homeonavailable {
+    width: 70px;
+    display: block;
+    padding: 30px;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(12, 175, 234);
+    border-radius: 50px;
+    margin-right: 200px;
+    text-emphasis:var(#333)
+}
+
+
+.homeonavailable:hover{
+    /* box-shadow: 5px 10px 10px rgba(53, 206, 230, 0.15); */
+    background-image: url('Screenshot 2024-05-13 013641.png');
+}
+
+.full_page{
+    background-image: url("bg.jpg");
+}
+
+/* 
+SAME DIV ✨✨✨*/
+
+/* .header ul li{
+    text-align: horizontal;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: 70px;
+    margin-right: 1rem;
+    
+}
+
+.header ul li a{
+    text-decoration: none;
+}
+ */
